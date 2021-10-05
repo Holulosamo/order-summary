@@ -27,7 +27,7 @@ body{
 .card{
     background-color: var(--neutral-very-pale-blue);
     width: 330px;
-    height: 500px;
+    height: 800px;
     border-radius: 1em;
     text-align: center;
 }
@@ -42,5 +42,60 @@ body{
 }
 
 .card-text{
+    padding: 0 2em;
     color: var(--neutral-desaturated-blue);
+}
+
+.card-payment{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 2em auto 0;
+    width: 90%;
+    align-items: center;
+    height: 90px;
+    border-radius: .5em;
+    background-color: hsla(225, 100%, 94%, .3);
+}
+
+.icon-music{
+    justify-self: end;
+}
+
+.payment-price{
+    margin-top: 1em;
+    grid-column: 2 / 4;
+}
+
+.payment-price span{
+    color: var(--neutral-dark-blue);
+    font-weight: 700;
+}
+
+.payment-price p{
+    color: var(--neutral-desaturated-blue);
+    margin-top: .2em;
+}
+
+.payment-link{
+    margin: 1em;
+    font-size: .9rem;
+    color: var(--primary-bright-blue);
+}
+
+.buttons{
+    display: block;
+    text-decoration: none;
+}
+
+.card-buttons{
+    margin-top: 2.5em;
+}
+
+.button-cancel-payment{
+    margin-top: 1em;
+}
+
+
+.payment-link:hover{
+    text-decoration: none;
 }
