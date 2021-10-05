@@ -1,0 +1,21 @@
+:root{
+    --primary-pale-blue: hsl(225, 100%, 94%);
+    --primary-bright-blue: hsl(245, 75%, 52%);
+
+    --neutral-very-pale-blue: hsl(225, 100%, 98%);
+    --neutral-desaturated-blue: hsl(224, 23%, 55%);
+    --neutral-dark-blue: hsl(223, 47%, 23%);
+
+    --ff-rhd-ss: 'Red Hat Display', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-size: 16px;
+    min-height: 100vh;
+    background: left 0%/100% 50% no-repeat url(../assets/pattern-background-mobile.svg), var(--primary-pale-blue);
+}
