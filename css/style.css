@@ -109,6 +109,7 @@ body{
 }
 
 .payment-cancel{
+    display: inline-block;
     margin-top: 1.5em;
     padding-bottom: 2.5em;
     font-weight: 700;
