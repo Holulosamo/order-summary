@@ -91,12 +91,12 @@ body{
 }
 
 .buttons{
-    display: block;
     text-decoration: none;
 }
 
 
 .payment-button{
+    display: block;
     width: 85%;
     max-width: 360px;
     margin: 0 auto;
