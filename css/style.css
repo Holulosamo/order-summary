@@ -29,7 +29,7 @@ body{
     border-radius: 1em;
     box-shadow: 0 15px 1em rgba(8,8,8, .2);
     text-align: center;
-    background-color: var(--neutral-very-pale-blue);
+    background-color: #fff;
 }
 
 .card-img{
@@ -158,6 +158,6 @@ body{
     }
 
     .payment-cancel{
-        padding-bottom: 4em;
+        padding-bottom: 3em;
     }
 }
